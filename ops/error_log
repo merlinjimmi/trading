@@ -1,0 +1,14 @@
+[14-Mar-2025 23:24:02 America/New_York] PHP Warning:  Constant SITE_PHONE already defined in /home/elitexhub/public_html/ops/connect.php on line 50
+[14-Mar-2025 23:24:36 America/New_York] PHP Warning:  Constant SITE_PHONE already defined in /home/elitexhub/public_html/ops/connect.php on line 50
+[14-Mar-2025 23:30:46 America/New_York] PHP Warning:  Constant SITE_PHONE already defined in /home/elitexhub/public_html/ops/connect.php on line 50
+[14-Mar-2025 23:31:26 America/New_York] PHP Warning:  Constant SITE_PHONE already defined in /home/elitexhub/public_html/ops/connect.php on line 50
+[14-Mar-2025 23:32:07 America/New_York] PHP Warning:  Constant SITE_PHONE already defined in /home/elitexhub/public_html/ops/connect.php on line 50
+[15-Mar-2025 06:03:40 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'barcode' doesn't have a default value in /home/elitexhub/public_html/ops/adminauth.php:536
+Stack trace:
+#0 /home/elitexhub/public_html/ops/adminauth.php(536): PDOStatement->execute()
+#1 {main}
+  thrown in /home/elitexhub/public_html/ops/adminauth.php on line 536
+[15-Mar-2025 09:17:39 America/New_York] PHP Warning:  unlink(): No such file or directory in /home/elitexhub/public_html/ops/users.php on line 1020
+[15-Mar-2025 09:19:11 America/New_York] PHP Warning:  unlink(): No such file or directory in /home/elitexhub/public_html/ops/users.php on line 1020
+[15-Mar-2025 09:20:39 America/New_York] PHP Warning:  unlink(): No such file or directory in /home/elitexhub/public_html/ops/users.php on line 1020
+[15-Mar-2025 09:37:41 America/New_York] PHP Warning:  unlink(): No such file or directory in /home/elitexhub/public_html/ops/users.php on line 1020

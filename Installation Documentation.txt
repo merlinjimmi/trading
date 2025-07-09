@@ -1,0 +1,30 @@
+Go to ops/connect.php to connect database and set necessary changes by defining your site details 
+
+SITE_URL, SITE_ADDRESS, SITE_NAME, SITE
+
+Change the above to yours like this //
+
+SITE_URL = https://your_site_link.com //
+SITE_ADDRESS = www.your_site.com  //
+SITE_NAME = Your Site Name //
+SITE = Your Site Name //
+SITE_PHONE = +1234567890
+LIVE_CHAT = Your live chat script. 
+
+You can move <?LIVE_CHAT> from your site </footer> to before the site </head>, depending on the livechat you're using and which needs to be in the <head> or before the </body> tag
+
+Scroll down in ops/connect.php and connect mail smtp
+
+
+Admin URL------
+
+domain.com/adminsignin.php
+
+User - admin
+Pass - admin123
+
+
+Go to .htaccess and replace all www.website.com to your site address www.your_site_address.com
+
+Go to assets/images/logo for your site logos and email header logos
+//
